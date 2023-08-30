@@ -4,7 +4,7 @@
 
 ### Exploratory Data Analysis
 
-[Effect of Temperature on Crime Severity in Denver, CO](denver_crime_report.md) <br>
+[Effect of Temperature on Crime in Denver, CO](denver_crime_report.md) <br>
 <img src="images/crime_scene_image.jpg"/><br>
 [Slidedeck](/pdf/crime_vs_weather/DATASCI_200_Crime_vs_Temp_in_Denver.pdf) | 
 [Code](https://github.com/kyrie0126/Denver-Temperature-and-Crime-Analysis) <br>

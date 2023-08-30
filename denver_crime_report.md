@@ -1,11 +1,11 @@
-## Effect of Temperature on Crime Severity in Denver, CO
+## Effect of Temperature on Crime in Denver, CO
 
 ### **Background**
 Crime and crime rates are significant societal and political concerns, impacting public safety, policy decisions, and various sectors. Discussions around crime data influence law enforcement assessments, city budgets, and political agendas, with crime statistics playing a pivotal role in elections. Despite national declines in crime, some regions like Denver experience rising crime rates, necessitating an exploration of contributing factors. One potential factor is ambient temperature, as research suggests it can influence human behavior and impulsivity. While a study links temperature and crime in Finland, investigating this relationship in Denver becomes crucial for policymaking aimed at reducing crime rates in the city.
 
 ### **Research Question and Hypothesis**
-**Research Question:** Does temperature affect crime rates in the Denver area?
-**Hypothesis:** As the temperature increases, Denver's crime rates will also increase. 
+**Research Question:** Does temperature affect crime rates in the Denver area?<br>
+**Hypothesis:** As the temperature increases, Denver's crime rates will also increase.<br>
 **Subquestions and Explorations:**
 1. Descriptive statistics and plots of the cleaned data set
 2. What is the monthly crime rate compared to the monthly average temperature?
