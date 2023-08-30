@@ -26,31 +26,31 @@ Several columns were removed from the `Crime` dataset, including geographic loca
 The crime dataset has 399,572 offenses from Jan 2017 to Oct 2022. Among them are 14 offense categories (see Figure 1) and 195 offense types. The two most common offense categories are theft from motor vehicles (14.9%) and public disorder (14.8%). For all offenses, 98.7% had one victim, with the maximum number being 19.
 
 <figure>
-<img src=pdf/crime_vs_weather/offense_categories_count.png>
+<img src="pdf/crime_vs_weather/offense_categories_count.png">
 <figcaption>Figure 1. Offense Category ID with Total Counts of Offenses.</figcaption>
 </figure>
 
 Crime trends increased from 2019 to 2021 (see Figure 2). There was a dip in 2022, but this is due to our lack of data in 2022, with data truncating in October. Because if we visualize the number of monthly crimes in Figure 3, we can see that the number of crimes per month in 2022 was higher than in 2021. Therefore, if the trend continues, the total number of offenses that year will likely be higher than in 2021. This observation agrees with the trends in the Denver news, inciting an urgency to research causes and solutions to decrease the number of crimes.
 
 <figure>
-<img src=pdf/crime_vs_weather/total_number_offenses_per_year.png>
+<img src="pdf/crime_vs_weather/total_number_offenses_per_year.png">
 <figcaption>Figure 2. The total number of offenses per year from 2017 to 2022. The purpose of the figure is to show the trend of crimes over the five years.</figcaption>
 </figure>
 
 <figure>
-<img src=pdf/crime_vs_weather/monthly_crime_count.png>
+<img src="pdf/crime_vs_weather/monthly_crime_count.png">
 <figcaption>Figure 3. The monthly crime count in Denver from 2017 to 2022.</figcaption>
 </figure>
 
 The average temperature in Denver usually peaks around July to August every year and is at its lowest around December to February (see Figure 4). There is no noticeable difference between the temperatures per year. Additionally, they are highly correlated when observing the correlation between average, minimum, and maximum temperatures. Therefore, to analyze our research question, we will look at average temperature rather than at minimum and maximum temperature separately.
 
 <figure>
-<img src=pdf/crime_vs_weather/average_temperature_per_month.png>
+<img src="pdf/crime_vs_weather/average_temperature_per_month.png">
 <figcaption>Figure 4. Average temperature per month in Denver, CO. The graph plots month compared average temperature (F) every month.</figcaption>
 </figure>
 
 <figure>
-<img src=pdf/crime_vs_weather/correlation_matrix_of_numerical_columns.png>
+<img src="pdf/crime_vs_weather/correlation_matrix_of_numerical_columns.png">
 <figcaption>Figure 5. Correlation plot of temperature variables. There is a high correlation between average temperature with minimum and maximum temperature, warranting the use of average temperature for overall analysis.</figcaption>
 </figure>
 
@@ -65,17 +65,17 @@ The first sub-question examined how the monthly crime rate compared to the month
 Additionally, in the latter half of each year, the relationship between crime and temperature weakens; crime begins to fall faster than temperature (see Figure 6). There was a stronger positive correlation when observing the average number of criminal offenses to the average temperature (r = 0.78). As temperature increases, so do criminal offenses and vice versa. The anomaly in January is still present when comparing the total number of criminal offenses to the average temperature (see Figure 7). Additionally, when observing the number of criminal offenses per incident, there is a weak, negative correlation (r = -0.27), meaning there lacks a relationship between temperature and the number of offenses committed per criminal incident (see Figure 8). So, two of the three correlations support a positive relationship between crime rates with temperature.
 
 <figure>
-<img src=pdf/crime_vs_weather/average_number_criminal_incidents.png>
+<img src="pdf/crime_vs_weather/average_number_criminal_incidents.png">
 <figcaption>Figure 6. Monthly average of criminal incidents compared to an average monthly temperature between 2017 to 2022. The data is averaged together by month per year.</figcaption>
 </figure>
 
 <figure>
-<img src=pdf/crime_vs_weather/average_number_criminal_offenses.png>
+<img src="pdf/crime_vs_weather/average_number_criminal_offenses.png">
 <figcaption>Figure 7. Monthly average of criminal offenses compared to the average monthly temperature between 2017 to 2022. The data is averaged together by month per year.</figcaption>
 </figure>
 
 <figure>
-<img src=pdf/crime_vs_weather/average_number_criminal_offenses_per_incident.png>
+<img src="pdf/crime_vs_weather/average_number_criminal_offenses_per_incident.png">
 <figcaption>Figure 8. The monthly average number of criminal offenses per incident compared to the average monthly temperature between 2017 to 2022. The data is averaged together by month per year.</figcaption>
 </figure>
 
@@ -84,14 +84,14 @@ Additionally, in the latter half of each year, the relationship between crime an
 The second subquestion looked at how the severity of crime compares to temperature. We used two methods to observe severity. The first method was separating the crimes into violent, property, or other crimes. Violent crime in Denver is separated into murder, arson, sexual assault, robbery, aggravated assault, and robbery. Property crimes are theft from motor vehicles, burglary, auto theft, white-collar crimes, and larceny. The others category include public disorder, other crimes against persons, drug, and alcohol, and all other crimes. All crimes had similar average temperatures, but violent crimes did have a slightly higher average temperature of 54.56 degrees F (see Figure 9). When observing the different categories and their correlation to temperature, other crimes correlated 0.67, violent crimes correlated 0.92, and property crimes correlated 0.83. Therefore, violent crimes had the strongest correlation out of the three categories to average temperature, which means as the temperature rises so does the frequency of violent crimes.
 
 <figure>
-<img src=pdf/crime_vs_weather/average_temp_by_crime_category.png>
+<img src="pdf/crime_vs_weather/average_temp_by_crime_category.png">
 <figcaption>Figure 9. Average temperature grouped by crime category.</figcaption>
 </figure>
 
 ChatGPT suggested another way that we assessed severity. Instead of looking at offense category, which only has 14 categories, we looked at offense type, which has 195 unique types. ChatGPT separated them into high, medium, and low harm categories. The top 10 of each severity category are listed in Appendix F. High harm had the strongest correlation of 0.86 with average temperature, medium harm with 0.80, and low harm with 0.75 (see Figure 10). Using these two methods when the severity of the crime is high or the crime is more of a violent nature, there is a higher correlation with the trends of temperature.
 
 <figure>
-<img src=pdf/crime_vs_weather/harm_of_criminal_offenses.png>
+<img src="pdf/crime_vs_weather/harm_of_criminal_offenses.png">
 <figcaption>Figure 10. The harm of criminal offenses compared to average temperature by month. The correlation values per line follow: High Harm: 0.86, Medium Harm: 0.80, Low Harm: 0.75</figcaption>
 </figure>
 
