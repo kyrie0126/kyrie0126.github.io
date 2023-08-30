@@ -1,11 +1,14 @@
-## Portfolio
+## Kyle's Data Analyst Portfolio
 
 ---
 
-### Category Name 1 
+### Exploratory Data Analysis
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Effect of Temperature on Crime Severity in Denver, CO](denver_crime_report.md) <br>
+<img src="images/crime_scene_image.jpg"/><br>
+[Slidedeck](/pdf/crime_vs_weather/DATASCI_200_Crime_vs_Temp_in_Denver.pdf) | 
+[Code](https://github.com/kyrie0126/Denver-Temperature-and-Crime-Analysis) <br>
+Packages: NumPy, Pandas, Seaborn, Matplotlib, Tabulate, Datetime
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
@@ -17,7 +20,7 @@
 
 ---
 
-### Category Name 2
+### Dashboards
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
